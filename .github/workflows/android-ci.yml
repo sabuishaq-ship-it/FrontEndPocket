@@ -28,7 +28,6 @@ jobs:
         run: chmod +x gradlew
 
       - name: 4. Run Unit Tests & Lint Check
-        continue-on-error: true
         run: ./gradlew testDebugUnitTest lintDebug
 
       - name: 5. Build Release APK
@@ -54,7 +53,7 @@ jobs:
           rm -f release-key.jks app-release-aligned.apk
 
       - name: 7. Upload Signed Release APK & Lint Report
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: FrontEndPocket-Signed-Release
           path: |

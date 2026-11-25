@@ -312,7 +312,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                         cursor.getInt(cursor.getColumnIndexOrThrow(COLUMN_ID)),
                         cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_CATEGORY_NAME)),
                         cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_CATEGORY_ICON)),
-                        cursor.getInt(cursor.getColumnIndex("lesson_count"))
+                        cursor.getInt(cursor.getColumnIndexOrThrow("lesson_count"))
                 );
                 categories.add(category);
             } while (cursor.moveToNext());
