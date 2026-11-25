@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - name: 1. Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 2. Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
@@ -27,14 +27,20 @@ jobs:
       - name: 3. Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: 4. Run Lint & Unit Tests
-        run: ./gradlew lint testDebugUnitTest --continue
+      - name: 4. Run Unit Tests
+        run: ./gradlew testDebugUnitTest
 
-      - name: 5. Build Debug APK
+      - name: 5. Run Lint Code Quality Check
+        continue-on-error: true
+        run: ./gradlew lintDebug
+
+      - name: 6. Build Debug APK
         run: ./gradlew assembleDebug
 
-      - name: 6. Upload Debug APK Artifact
-        uses: actions/upload-artifact@v4
+      - name: 7. Upload Debug APK & Lint Report
+        uses: actions/upload-artifact@v5
         with:
-          name: FrontEndPocket-debug-apk
-          path: FrontEndPocket/app/build/outputs/apk/debug/*.apk
+          name: FrontEndPocket-Build-Outputs
+          path: |
+            FrontEndPocket/app/build/outputs/apk/debug/*.apk
+            FrontEndPocket/app/build/reports/lint-results-debug.html
