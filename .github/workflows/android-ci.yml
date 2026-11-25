@@ -1,4 +1,4 @@
-﻿name: Android CI/CD Pipeline
+﻿name: Android CI/CD & Release Signing
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-test:
+  build-and-sign:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -27,20 +27,38 @@ jobs:
       - name: 3. Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: 4. Run Unit Tests
-        run: ./gradlew testDebugUnitTest
-
-      - name: 5. Run Lint Code Quality Check
+      - name: 4. Run Unit Tests & Lint Check
         continue-on-error: true
-        run: ./gradlew lintDebug
+        run: ./gradlew testDebugUnitTest lintDebug
 
-      - name: 6. Build Debug APK
-        run: ./gradlew assembleDebug
+      - name: 5. Build Release APK
+        run: ./gradlew assembleRelease
 
-      - name: 7. Upload Debug APK & Lint Report
+      - name: 6. Sign Release APK Officially
+        working-directory: .
+        env:
+          SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
+          ALIAS: ${{ secrets.ALIAS }}
+          KEY_STORE_PASSWORD: ${{ secrets.KEY_STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          echo "$SIGNING_KEY" | base64 --decode > release-key.jks
+          BUILD_TOOLS=$(ls -d $ANDROID_HOME/build-tools/* | sort -V | tail -n 1)
+          UNSIGNED_APK=$(find FrontEndPocket/app/build/outputs/apk/release -name "*.apk" | head -n 1)
+          $BUILD_TOOLS/zipalign -v -p 4 "$UNSIGNED_APK" app-release-aligned.apk
+          $BUILD_TOOLS/apksigner sign \
+            --ks release-key.jks \
+            --ks-key-alias "$ALIAS" \
+            --ks-pass pass:"$KEY_STORE_PASSWORD" \
+            --key-pass pass:"$KEY_PASSWORD" \
+            --out FrontEndPocket-Release-Signed.apk \
+            app-release-aligned.apk
+          rm -f release-key.jks app-release-aligned.apk
+
+      - name: 7. Upload Signed Release APK & Lint Report
         uses: actions/upload-artifact@v5
         with:
-          name: FrontEndPocket-Build-Outputs
+          name: FrontEndPocket-Signed-Release
           path: |
-            FrontEndPocket/app/build/outputs/apk/debug/*.apk
+            FrontEndPocket-Release-Signed.apk
             FrontEndPocket/app/build/reports/lint-results-debug.html
