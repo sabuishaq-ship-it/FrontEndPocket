@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#42A5F5</color>
+    <color name="html">#E44D26</color>
+    <color name="css">#264DE4</color>
+    <color name="javascript">#F7DF1E</color>
+    <color name="bootstrap">#712CF9</color>
+    <color name="react">#087EA4</color>
+    <color name="difficulty_beginner">#2E7D32</color>
+    <color name="difficulty_intermediate">#E65100</color>
+    <color name="difficulty_advanced">#C62828</color>
+    <color name="difficulty_beginner_bg">#C8E6C9</color>
+    <color name="difficulty_intermediate_bg">#FFE0B2</color>
+    <color name="difficulty_advanced_bg">#FFCDD2</color>
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="favorite_active">#E53935</color>
+    <color name="shadow">#1A000000</color>
+    <color name="welcome_bg_start">#1565C0</color>
+    <color name="welcome_bg_end">#1976D2</color>
+</resources>

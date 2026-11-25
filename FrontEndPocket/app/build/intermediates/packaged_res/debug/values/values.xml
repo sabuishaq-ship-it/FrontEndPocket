@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <color name="background">#F5F7FA</color>
+    <color name="bootstrap">#712CF9</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="css">#264DE4</color>
+    <color name="difficulty_advanced">#C62828</color>
+    <color name="difficulty_advanced_bg">#FFCDD2</color>
+    <color name="difficulty_beginner">#2E7D32</color>
+    <color name="difficulty_beginner_bg">#C8E6C9</color>
+    <color name="difficulty_intermediate">#E65100</color>
+    <color name="difficulty_intermediate_bg">#FFE0B2</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="favorite_active">#E53935</color>
+    <color name="html">#E44D26</color>
+    <color name="javascript">#F7DF1E</color>
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#42A5F5</color>
+    <color name="react">#087EA4</color>
+    <color name="shadow">#1A000000</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="welcome_bg_end">#1976D2</color>
+    <color name="welcome_bg_start">#1565C0</color>
+    <string name="add_lesson">Add Lesson</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="app_name">Front End Academy</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="categories">Categories</string>
+    <string name="change_password">Change Password</string>
+    <string name="code_example">Code Example</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="delete_lesson">Delete Lesson</string>
+    <string name="description">Description</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="documentation_url">Documentation URL</string>
+    <string name="edit_lesson">Edit Lesson</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="email">Email</string>
+    <string name="email_not_found">Email not found!</string>
+    <string name="favorites">Favorites</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_instruction">Enter your email and new password to reset your account.</string>
+    <string name="forgot_password_title">Reset Password</string>
+    <string name="full_explanation">Full Explanation</string>
+    <string name="full_name">Full Name</string>
+    <string name="lesson_title">Lesson Title</string>
+    <string name="lessons">Lessons</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="new_password">New Password</string>
+    <string name="no_lessons">No lessons yet</string>
+    <string name="open_documentation">Open Documentation</string>
+    <string name="password">Password</string>
+    <string name="password_reset_success">Password reset successfully!</string>
+    <string name="passwords_do_not_match">New passwords do not match!</string>
+    <string name="personal_notes">Personal Notes</string>
+    <string name="profile">Profile</string>
+    <string name="quiz_question">Quiz Question</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="search_lessons">Search lessons...</string>
+    <string name="username">Username</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="welcome_tagline">Your offline companion for learning Front-End Development.</string>
+    <string name="welcome_title">Welcome to Front End Academy</string>
+    <style name="Theme.FrontEndPocket" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_lessons.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_lessons.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_react.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_react.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_add_lesson.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_add_lesson.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_bg_button_rounded.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\bg_button_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_bg_welcome.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\bg_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_logo.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_lesson_detail.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_lesson_detail.xml"
+    },
+    {
+        "merged": "com.fepocket.app-merged_res-33:/layout_activity_lesson_detail.xml.flat",
+        "source": "com.fepocket.app-main-35:/layout/activity_lesson_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_bg_card_rounded.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\bg_card_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_favorite_filled.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_favorite_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_dialog_change_password.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\dialog_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_html.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_html.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_item_lesson.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\item_lesson.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_dialog_edit_profile.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\dialog_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_bg_difficulty.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\bg_difficulty.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_bootstrap.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_bootstrap.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_favorite_border.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_favorite_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_javascript.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_javascript.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_css.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_css.xml"
+    },
+    {
+        "merged": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-merged_res-33:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\kh\\.gradle\\daemon\\8.5\\com.fepocket.app-main-35:\\drawable\\ic_delete.xml"
+    }
+]
