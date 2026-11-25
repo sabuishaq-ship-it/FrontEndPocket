@@ -38,9 +38,7 @@ jobs:
         working-directory: .
         env:
           SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
-          ALIAS: ${{ secrets.ALIAS }}
           KEY_STORE_PASSWORD: ${{ secrets.KEY_STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
           echo "$SIGNING_KEY" | base64 --decode > release-key.jks
           BUILD_TOOLS=$(ls -d $ANDROID_HOME/build-tools/* | sort -V | tail -n 1)
@@ -48,9 +46,9 @@ jobs:
           $BUILD_TOOLS/zipalign -v -p 4 "$UNSIGNED_APK" app-release-aligned.apk
           $BUILD_TOOLS/apksigner sign \
             --ks release-key.jks \
-            --ks-key-alias "$ALIAS" \
+            --ks-key-alias pocketkey \
             --ks-pass pass:"$KEY_STORE_PASSWORD" \
-            --key-pass pass:"$KEY_PASSWORD" \
+            --key-pass pass:"$KEY_STORE_PASSWORD" \
             --out FrontEndPocket-Release-Signed.apk \
             app-release-aligned.apk
           rm -f release-key.jks app-release-aligned.apk
